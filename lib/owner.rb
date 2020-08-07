@@ -2,8 +2,12 @@ require 'pry'
 
 class Owner
   
+<<<<<<< HEAD
   attr_reader :name, :species
   attr_accessor :cat, :dog
+=======
+  attr_reader :name, :species, :cats
+>>>>>>> 02cd448c3216447614c76bf8924e5b747eace6e8
   
   @@all = []
   
@@ -31,6 +35,7 @@ class Owner
   end 
   
   def cats 
+<<<<<<< HEAD
     Cat.all.select {|cat| cat.owner == self}
   end 
   
@@ -69,6 +74,16 @@ class Owner
    return "I have #{self.dogs.length} dog(s), and #{self.cats.length} cat(s)."
    
   end 
+=======
+    
+    
+  end 
+  
+  
+  
+  
+  
+>>>>>>> 02cd448c3216447614c76bf8924e5b747eace6e8
   
   
 end

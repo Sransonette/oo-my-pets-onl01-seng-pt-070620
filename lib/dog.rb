@@ -14,6 +14,9 @@ class Dog
  def self.all
    @@all 
  end
+<<<<<<< HEAD
  
 
+=======
+>>>>>>> 02cd448c3216447614c76bf8924e5b747eace6e8
 end
